@@ -1,0 +1,109 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #161515; /* dark background color */
+    color: #fff; /* Light text color */
+}
+
+/* Header styles */
+header {
+    background-color: #333; /* Dark header background color */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+header nav ul li a {
+    color: #340af0;
+    text-decoration: none;
+}
+
+/* Content styles */
+section {
+    padding: 20px;
+}
+
+section h2 {
+    color: #17f303; /* green heading color */
+    font-size: 24px;
+}
+
+section p {
+    color: #aca3a1; /* Light gray text color */
+}
+
+/* Footer styles */
+footer {
+    background-color: #f5dd09; /* yellow footer background color */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+/* Additional styles for specific pages */
+
+/* About page */
+#about {
+    background-color: #222; /* Dark background color for about section */
+}
+
+#about h2 {
+    color: #00ff00; /* Bright green heading color */
+}
+
+/* Services page */
+#services {
+    background-color: #444; /* Dark background color for services section */
+}
+
+#services h2 {
+    color: #ff00ff; /* Bright pink heading color */
+}
+
+/* Portfolio page */
+#portfolio {
+    background-color: #66666600; /* Dark background color for portfolio section */
+}
+
+#portfolio h2 {
+    color: #00ffff; /* Bright cyan heading color */
+}
+
+/* Contact page */
+#contact {
+    background-color: #888; /* Dark background color for contact section */
+}
+
+#contact h2 {
+    color: #ffff00; /* Bright yellow heading color */
+}
+
+/* Placeholder styles for pictures */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
